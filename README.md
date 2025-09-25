@@ -1,4 +1,4 @@
-# RockoAI
+# expo-firebase-heroui-starter
 
 > ⚠️ **Active Development Notice**: This project is currently under active development. Features and APIs may change. Use at your own discretion for production applications. We hope this helps you get up and running faster.
 
@@ -54,7 +54,7 @@ A modern React Native mobile application built with Firebase authentication, fea
 ## 📱 Project Structure
 
 ```
-rockoai/
+expo-firebase-heroui-starter/
 ├── app/                    # App screens (file-based routing)
 │   ├── (tabs)/            # Bottom tab navigation
 │   │   ├── index.tsx      # Home screen
@@ -87,7 +87,7 @@ rockoai/
 
    ```bash
    git clone <repository-url>
-   cd rockoai
+   cd expo-firebase-heroui-starter
    ```
 
 2. **Install dependencies**
