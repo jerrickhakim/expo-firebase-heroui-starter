@@ -1,12 +1,28 @@
-import { Tabs } from "expo-router";
-import React from "react";
-
 import { HapticTab } from "@/components/haptic-tab";
 import { IconSymbol } from "@/components/ui/icon-symbol";
-import { colorKit, useTheme } from "heroui-native";
+import { Tabs } from "expo-router";
+import { colorKit } from "heroui-native";
+
+import { Icon, Label, NativeTabs } from "expo-router/unstable-native-tabs";
+import React from "react";
+
+import { useTheme } from "heroui-native";
 
 export default function TabLayout() {
   const { colors, theme } = useTheme();
+
+  // return (
+  //   <NativeTabs>
+  //     <NativeTabs.Trigger name="index">
+  //       <Label>Home</Label>
+  //       <Icon sf="house.fill" drawable="custom_android_drawable" />
+  //     </NativeTabs.Trigger>
+  //     <NativeTabs.Trigger name="explore">
+  //       <Icon sf="gear" drawable="custom_settings_drawable" />
+  //       <Label>Explore</Label>
+  //     </NativeTabs.Trigger>
+  //   </NativeTabs>
+  // );
 
   return (
     <Tabs
